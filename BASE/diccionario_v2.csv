@@ -1,0 +1,158 @@
+,Nombre_columna,Formato_columna,Nombre_columna_dic
+0,BPIN,object,bpin
+1,INSTANCIA DE APROBACIÓN INICIAL,object,instancia_de_aprobacion_inicial
+2,TIPO DE INSTANCIA INICIAL,object,tipo_de_instancia_inicial
+3,REGION ENTIDAD QUE MÁS APORTA RECURSOS,object,region_entidad_que_mas_aporta_recursos
+4,DEPARTAMENTO ENTIDAD QUE MÁS APORTA RECURSOS,object,departamento_entidad_que_mas_aporta_recursos
+5,CODIGO ENTIDAD TERRITORIAL QUE APORTA MÁS RECURSOS,int64,codigo_entidad_territorial_que_aporta_mas_recursos
+6,ENTIDAD TERRITORIAL QUE APORTA MÁS RECURSOS,object,entidad_territorial_que_aporta_mas_recursos
+7,REGION EJECUTOR,object,region_ejecutor
+8,DEPARTAMENTO EJECUTOR,object,departamento_ejecutor
+9,CÓDIGO EJECUTOR,int64,codigo_ejecutor
+10,ENTIDAD EJECUTORA,object,entidad_ejecutora
+11,NIT ENTIDAD EJECUTORA,float64,nit_entidad_ejecutora
+12,DIGITO VERIFICACIÓN,float64,digito_verificacion
+13,TIPO EJECUTOR,object,tipo_ejecutor
+14,TIPO EJECUTOR DETALLADO,object,tipo_ejecutor_detallado
+15,CAPACIDAD INSTITUCIONAL,float64,capacidad_institucional
+16,SECTOR SUIFP,object,sector_suifp
+17,PROGRAMA,object,programa
+18,SUBPROGRAMA,object,subprograma
+19,NOMBRE DEL PROYECTO,object,nombre_del_proyecto
+20,AVANCE FÍSICO,float64,avance_fisico
+21,AVANCE FINANCIERO,float64,avance_financiero
+22,ESTADO DETALLE,object,estado_detalle
+23,ESTADO GENERAL,object,estado_general
+24,FECHA APROBACIÓN,datetime64[ns],fecha_aprobacion
+25,AÑO APROBACIÓN,int64,ano_aprobacion
+26,TIEMPO DESDE LA APROBACIÓN,object,tiempo_desde_la_aprobacion
+27,FECHA MIGRACION GESPROY,datetime64[ns],fecha_migracion_gesproy
+28,CUMPLIMIENTO DE REQUISITOS,datetime64[ns],cumplimiento_de_requisitos
+29,FECHA APROBACIÓN PRORROGA CUMPLIMIENTO DE REQUISITOS,datetime64[ns],fecha_aprobacion_prorroga_cumplimiento_de_requisitos
+30,EN RIESGO DE LIBERACIÓN DE RECURSOS,object,en_riesgo_de_liberacion_de_recursos
+31,IMPLEMENTACION ACUERDO PAZ,object,implementacion_acuerdo_paz
+32,APROBACIONES NUEVO GOBIERNO,int64,aprobaciones_nuevo_gobierno
+33,PROYECTOS REACTIVACIÓN ECONÓMICA,object,proyectos_reactivacion_economica
+34,MARCA COVID,object,marca_covid
+35,VALOR SGR,float64,valor_sgr
+36,VALOR NACIÓN,int64,valor_nacion
+37,VALOR OTROS,float64,valor_otros
+38,TOTAL PROYECTO,float64,total_proyecto
+39,VALOR NO SUIFP,float64,valor_no_suifp
+40,DIRECTAS - Ley 1530,float64,directas__ley_1530
+41,FCR_40 - Ley 1530,float64,fcr_40__ley_1530
+42,FCR_60 - Ley 1530,float64,fcr_60__ley_1530
+43,FDR - Ley 1530,float64,fdr__ley_1530
+44,FCTEI - Ley 1530,float64,fctei__ley_1530
+45,CORMAGDALENA - Ley 1530,int64,cormagdalena__ley_1530
+46,INCENTIVO A LA PRODUCCIÓN - Ley 1530,float64,incentivo_a_la_produccion__ley_1530
+47,ASIGNACION PAZ - AP50 - Ley 1530,float64,asignacion_paz__ap50__ley_1530
+48,ASIGNACION PAZ APFDR50 - Ley 1530,float64,asignacion_paz_apfdr50__ley_1530
+49,ASIGNACION PAZ FONPET - Ley 1530,float64,asignacion_paz_fonpet__ley_1530
+50,Incentivo a la Producción - 30% Rendimientos Financieros - Ley 1530,float64,incentivo_a_la_produccion__30_rendimientos_financieros__ley_1530
+51,"Asignaciones Directas - Gestión del riesgo, adaptación al cambio climático o situaciones de emergencia - Ley 1530",float64,asignaciones_directas__gestion_del_riesgo_adaptacion_al_cambio_climatico_o_situaciones_de_emergencia__ley_1530
+52,SGR - ASIGNACIONES DIRECTAS LEY 2056 (100),float64,sgr__asignaciones_directas_ley_2056_100
+53,SGR - ASIGNACIONES DIRECTAS ANTICIPO 5% LEY 2056 (101),float64,sgr__asignaciones_directas_anticipo_5_ley_2056_101
+54,SGR - ASIGNACIÓN CORMAGDALENA LEY 2056 (117),float64,sgr__asignacion_cormagdalena_ley_2056_117
+55,SGR - RENDIMIENTOS FINANCIEROS 30% - INCENTIVO A LA PRODUCCIÓN LEY 2056 (118),float64,sgr__rendimientos_financieros_30__incentivo_a_la_produccion_ley_2056_118
+56,SGR - ASIGNACIÓN AMBIENTAL LEY 2056 (120),int64,sgr__asignacion_ambiental_ley_2056_120
+57,SGR - FONPET LEY 2056 (123),float64,sgr__fonpet_ley_2056_123
+58,INCT_PRODUC_EXPLO_Y_FORMA_2056 (122-125) ,float64,inct_produc_explo_y_forma_2056_122125_
+59,INCT_PRODUC_EXPLO_Y_FORMA_2056 - FUNCIONAMIENTO (127),float64,inct_produc_explo_y_forma_2056__funcionamiento_127
+60,"SGR - ASIGNACIÓN PARA LA INVERSIÓN LOCAL SEGÚN NBI Y MUNICIPIOS DE CUARTA, QUINTA Y SEXTA CATEGORÍA LEY 2056 (102)",float64,sgr__asignacion_para_la_inversion_local_segun_nbi_y_municipios_de_cuarta_quinta_y_sexta_categoria_ley_2056_102
+61,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL EN AMBIENTE Y DESARROLLO SOSTENIBLE LEY 2056 (103),float64,sgr__asignacion_para_la_inversion_local_en_ambiente_y_desarrollo_sostenible_ley_2056_103
+62,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL - PUEBLOS Y COMUNIDADES INDÍGENAS LEY 2056 (104),int64,sgr__asignacion_para_la_inversion_local__pueblos_y_comunidades_indigenas_ley_2056_104
+63,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL EN AMBIENTE Y DESARROLLO SOSTENIBLE GRUPOS ÉTNICOS - PUEBLOS Y COMUNIDADES INDÍGENAS LEY 2056 (105),int64,sgr__asignacion_para_la_inversion_local_en_ambiente_y_desarrollo_sostenible_grupos_etnicos__pueblos_y_comunidades_indigenas_ley_2056_105
+64,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL GRUPOS ÉTNICOS - COMUNIDADES NARP LEY 2056 (106),int64,sgr__asignacion_para_la_inversion_local_grupos_etnicos__comunidades_narp_ley_2056_106
+65,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL EN AMBIENTE Y DESARROLLO SOSTENIBLE GRUPOS ÉTNICOS - COMUNIDADES NARP LEY 2056 (107),int64,sgr__asignacion_para_la_inversion_local_en_ambiente_y_desarrollo_sostenible_grupos_etnicos__comunidades_narp_ley_2056_107
+66,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL GRUPOS ÉTNICOS - PUEBLO RROM O GITANO LEY 2056 (108),int64,sgr__asignacion_para_la_inversion_local_grupos_etnicos__pueblo_rrom_o_gitano_ley_2056_108
+67,SGR - ASIGNACION PARA LA INVERSIÓN LOCAL EN AMBIENTE Y DESARROLLO SOSTENIBLE GRUPOS ÉTNICOS - PUEBLO RROM O GITANO LEY 2056 (109),int64,sgr__asignacion_para_la_inversion_local_en_ambiente_y_desarrollo_sostenible_grupos_etnicos__pueblo_rrom_o_gitano_ley_2056_109
+68,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL 60% LEY 2056 (110),float64,sgr__asignacion_para_la_inversion_regional_60_ley_2056_110
+69,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL 40% LEY 2056 (111),int64,sgr__asignacion_para_la_inversion_regional_40_ley_2056_111
+70,"SGR - ASIGNACIÓN PARA LA INVERSIÓN EN CIENCIA, TECNOLOGÍA E INNOVACIÓN LEY 2056 - CONVOCATORIAS (112)",float64,sgr__asignacion_para_la_inversion_en_ciencia_tecnologia_e_innovacion_ley_2056__convocatorias_112
+71,"SGR - ASIGNACIÓN PARA LA INVERSIÓN EN CIENCIA, TECNOLOGÍA E INNOVACIÓN EN AMBIENTE Y DESARROLLO SOSTENIBLE LEY 2056 (113)",int64,sgr__asignacion_para_la_inversion_en_ciencia_tecnologia_e_innovacion_en_ambiente_y_desarrollo_sostenible_ley_2056_113
+72,"SGR - ASIGNACIÓN PARA LA INVERSIÓN EN CIENCIA, TECNOLOGÍA E INNOVACIÓN LEY 2056 (114)",float64,sgr__asignacion_para_la_inversion_en_ciencia_tecnologia_e_innovacion_ley_2056_114
+73,"SGR - ASIGNACIÓN PARA LA INVERSIÓN EN CIENCIA, TECNOLOGÍA E INNOVACIÓN Convocatorias 2021 -Ambiente y desarrollo LEY 2056 (115)",float64,sgr__asignacion_para_la_inversion_en_ciencia_tecnologia_e_innovacion_convocatorias_2021_ambiente_y_desarrollo_ley_2056_115
+74,SGR - ASIGNACIÓN PARA LA PAZ LEY 2056 (116),float64,sgr__asignacion_para_la_paz_ley_2056_116
+75,SGR - ASIGNACIÓN ADELANTO PAZ LEY 2056 (119),int64,sgr__asignacion_adelanto_paz_ley_2056_119
+76,SGR ASIGNACIÓN PARA LA PAZ - PROYECTOS DE INFRAESTRUCTURA DE TRANSPORTE PARA LA IMPLEMENTACIÓN DEL ACUERDO DE PAZ LEY 2056 (124),float64,sgr_asignacion_para_la_paz__proyectos_de_infraestructura_de_transporte_para_la_implementacion_del_acuerdo_de_paz_ley_2056_124
+77,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL PROYECTOS INFRAES TRANPORTE ACUERDO PAZ (126),float64,sgr__asignacion_para_la_inversion_regional_proyectos_infraes_tranporte_acuerdo_paz_126
+78,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL 60% GESTIÓN DEL REISGO Y ADAPTACIÓN AL CAMBIO CLIMÁTICO LEY 2056 (128),float64,sgr__asignacion_para_la_inversion_regional_60_gestion_del_reisgo_y_adaptacion_al_cambio_climatico_ley_2056_128
+79,"Asignaciones Directas - Gestión del riesgo, adaptación al cambio climático o situaciones de emergencia (166-129)",float64,asignaciones_directas__gestion_del_riesgo_adaptacion_al_cambio_climatico_o_situaciones_de_emergencia_166129
+80,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL - REACTIVACIÓN ECONÓMICA (210),float64,sgr__asignacion_para_la_inversion_regional__reactivacion_economica_210
+81,SGR - ASIGNACIÓN PARA LA INVERSIÓN LOCAL LEY 2056 (102-109),float64,sgr__asignacion_para_la_inversion_local_ley_2056_102109
+82,SGR - ASIGNACIÓN PARA LA INVERSIÓN REGIONAL LEY 2056 (110-111-126-128-210),float64,sgr__asignacion_para_la_inversion_regional_ley_2056_110111126128210
+83,"ASIGNACIÓN PARA LA INVERSIÓN EN CIENCIA, TECNOLOGÍA E INNOVACIÓN LEY 2056 (112-113-114-115)",float64,asignacion_para_la_inversion_en_ciencia_tecnologia_e_innovacion_ley_2056_112113114115
+84,"SGR - ASIGNACIÓN PARA LA PAZ LEY 2056 (116,119,124)",float64,sgr__asignacion_para_la_paz_ley_2056_116119124
+85,"INCT_PRODUC_EXPLO_Y_FORMA_2056 (122,125,127))",float64,inct_produc_explo_y_forma_2056_122125127
+86,PGN,int64,pgn
+87,PROPIOS,float64,propios
+88,VALOR SGP,int64,valor_sgp
+89,VALOR TOTAL INCLUIDO NO SUIFP,float64,valor_total_incluido_no_suifp
+90,TOTAL PAGOS AL PROYECTO,float64,total_pagos_al_proyecto
+91,FECHA INICIO PROGRAMACIÓN INICIAL,datetime64[ns],fecha_inicio_programacion_inicial
+92,FECHA FINAL PROGRAMACIÓN INICIAL,datetime64[ns],fecha_final_programacion_inicial
+93,PLAZO(MESES) PROGRAMACIÓN INICIAL,float64,plazomeses_programacion_inicial
+94,FECHA INICIO PROGRAMACIÓN ACTUAL,datetime64[ns],fecha_inicio_programacion_actual
+95,FECHA FINAL PROGRAMACIÓN ACTUAL,datetime64[ns],fecha_final_programacion_actual
+96,PLAZO(MESES) PROGRAMACIÓN ACTUAL,float64,plazomeses_programacion_actual
+97,ULTIMO PERIODO CON REPORTE DE INFORMACIÓN,datetime64[ns],ultimo_periodo_con_reporte_de_informacion
+98,VALOR PROGRAMADO,float64,valor_programado
+99,FECHA INICIAL EJECUTADA,datetime64[ns],fecha_inicial_ejecutada
+100,FECHA FINAL EJECUTADA,datetime64[ns],fecha_final_ejecutada
+101,PLAZO(MESES) EJECUTADO,int64,plazomeses_ejecutado
+102,MINIMA FECHA PROCESO PRECONTRACTUAL,object,minima_fecha_proceso_precontractual
+103,MINIMA FECHA DE SUSCRIPCIÓN CONTRATOS,datetime64[ns],minima_fecha_de_suscripcion_contratos
+104,MINIMA FECHA ACTA INICIO,datetime64[ns],minima_fecha_acta_inicio
+105,FASE,object,fase
+106,DESTINO RECURSOS,object,destino_recursos
+107,ENFOQUE DIFERENCIAL,object,enfoque_diferencial
+108,CÓDIGO ENTIDAD DESIGNADA CONTRATAR INTERVENTORÍA,float64,codigo_entidad_designada_contratar_interventoria
+109,ENTIDAD DESIGNADA CONTRATAR INTERVENTORÍA,object,entidad_designada_contratar_interventoria
+110,FECHA VISITA EVALUACIÓN,datetime64[ns],fecha_visita_evaluacion
+111,No. DE VISITAS DE SEGUIMIENTO,int64,no_de_visitas_de_seguimiento
+112,FECHA ÚLTIMA VISITA DE SEGUIMIENTO,datetime64[ns],fecha_ultima_visita_de_seguimiento
+113,CRITICO PERSISTENTE,object,critico_persistente
+114,"ABANDONADO, SUSPENDIDO INDEFINIDAMENTE O DE FORMA REITERADA Y/O CON RETRASOS INJUSTIFICADOS",object,abandonado_suspendido_indefinidamente_o_de_forma_reiterada_yo_con_retrasos_injustificados
+115,INSUFICIENCIAS TÉCNICAS GRAVES,object,insuficiencias_tecnicas_graves
+116,"FALTA DE SOSTENIBILIDAD, FUNCIONALIDAD Y/O OPERATIVIDAD",object,falta_de_sostenibilidad_funcionalidad_yo_operatividad
+117,SUPERARON CRITICIDAD,int64,superaron_criticidad
+118,DESCLASIFICADO COMO CRÍTICO,object,desclasificado_como_critico
+119,PLAN DE MEJORA CUMPLIDOS,float64,plan_de_mejora_cumplidos
+120,PLAN DE MEJORA INCUMPLIDOS,float64,plan_de_mejora_incumplidos
+121,REQUIERE PLAN DE CONTINGENCIA,object,requiere_plan_de_contingencia
+122,PLAN DE CONTINGENCIA CUMPLIDO,object,plan_de_contingencia_cumplido
+123,PLAN DE CONTIGENCIA NO CUMPLIDO,object,plan_de_contigencia_no_cumplido
+124,PLAN DE CONTINGENCIA EN SEGUIMIENTO,object,plan_de_contingencia_en_seguimiento
+125,DRONES,object,drones
+126,EXITOSOS,int64,exitosos
+127,ÚLTIMO EJERCICIO DE CONTROL SOCIAL,object,ultimo_ejercicio_de_control_social
+128,FECHA ÚLTIMO EJERCICIO CONTROL SOCIAL,datetime64[ns],fecha_ultimo_ejercicio_control_social
+129,FECHA ESTADO PROYECTO,datetime64[ns],fecha_estado_proyecto
+130,VALOR TOTAL DE LOS CONTRATOS,float64,valor_total_de_los_contratos
+131,VALOR CONTRATADO CON SGR,float64,valor_contratado_con_sgr
+132,OFICINA REGIONAL,object,oficina_regional
+133,OPERACIONES CREDITO PUBLICO,object,operaciones_credito_publico
+134,PROYECTOS OBRAS DE INF. FÍSICA EN IPES,object,proyectos_obras_de_inf_fisica_en_ipes
+135,PLANES DE DESARROLLO CON ENFOQUE TERRITORIAL - PDET (SEGÚN ENTIDAD EJECUTORA),object,planes_de_desarrollo_con_enfoque_territorial__pdet_segun_entidad_ejecutora
+136,SUBREGIONES PDET PROYECTOS APROBADOS OCAD PAZ (SEGÚN LOCALIZACIÓN),object,subregiones_pdet_proyectos_aprobados_ocad_paz_segun_localizacion
+137,Consolidado PDET,object,consolidado_pdet
+138,PROYECTO ENTIDAD PRIORIZADA FORTALECIMIENTO,object,proyecto_entidad_priorizada_fortalecimiento
+139,MARCA MUNICIPIOS MÁS POBRES,object,marca_municipios_mas_pobres
+140,MARCA ENTIDAD PRIVADA,object,marca_entidad_privada
+141,TIENE AJUSTES,int64,tiene_ajustes
+142,ALCANCE,object,alcance
+143,PROYECTO CON LIBERACIÓN EN FIRME (SDC) - Valor liberado,float64,proyecto_con_liberacion_en_firme_sdc__valor_liberado
+144,PROYECTO CESG,object,proyecto_cesg
+145,FECHA DE PUBLICACIÓN DE ACTO DE APROBACIÓN (fuente: Vista SUIFP),datetime64[ns],fecha_de_publicacion_de_acto_de_aprobacion_fuente_vista_suifp
+146,FECHA MÁXIMA PARA INICIO DE PROCESOS DE SELECCIÓN (fuente: Vista SUIFP),datetime64[ns],fecha_maxima_para_inicio_de_procesos_de_seleccion_fuente_vista_suifp
+147,INICIO DE OBLIGACIÓN COMO EJECUTOR,datetime64[ns],inicio_de_obligacion_como_ejecutor
+148,# DE DENUNCIAS CIUDADANAS RECIBIDAS,int64,_de_denuncias_ciudadanas_recibidas
+149,CON APORTE CIUDADANO,float64,con_aporte_ciudadano
+150,DECISIÓN MOTIVADA DE NO CONTINUIDAD,object,decision_motivada_de_no_continuidad
+151,CLASIFICACIÓN PLAZO PARA EJECUCIÓN,object,clasificacion_plazo_para_ejecucion
+152,Rango valor SGR,object,rango_valor_sgr
+153,Rango total proyecto,object,rango_total_proyecto
+154,Rango avance fisico,object,rango_avance_fisico
+155,Rango avance financiero,object,rango_avance_financiero
+156,Rango total pagos,object,rango_total_pagos
